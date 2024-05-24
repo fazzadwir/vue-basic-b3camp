@@ -1,0 +1,131 @@
+h1 {
+  font-size: 52px;
+}
+h3 {
+  font-size: 32px;
+}
+
+body {
+  font-family: "Poppins", "Roboto";
+  background-color: #fefded;
+}
+
+.image-style {
+  width: 300px;
+  height: 300px;
+  border-radius: 8px;
+  border: white;
+  flex: 1;
+}
+
+.image-hero {
+  width: 300px;
+  height: 400px;
+  border-radius: 8px;
+  border: white;
+  flex: 1;
+}
+
+.image-round {
+  width: 300px;
+  height: 300px;
+  border-radius: 60px;
+  border: white;
+  flex: 1;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+}
+.container-edu {
+  display: block;
+  height: 100%;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero-container {
+  flex: 1;
+  margin-right: 100px;
+  text-align: left;
+}
+
+.small-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  background-color: #2c333b;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.logo-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.header-center {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-title {
+  margin-left: 20px;
+}
+
+.nav-button {
+  background-color: #1a4d2e;
+  color: #fefded;
+  border-radius: 8px;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+.left {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin-left: 20px;
+}
+
+#image-container {
+  display: flex;
+  width: 30%;
+  margin-top: 32px;
+}
+
+.small-img {
+  height: 90px;
+  width: 90px;
+  margin-right: 100px;
+  margin-top: 15px;
+}
+
+#hero-container p,
+#hero-container .nav-button {
+  margin-bottom: 20px;
+}
+
+.container-edu p {
+  overflow: hidden;
+}
